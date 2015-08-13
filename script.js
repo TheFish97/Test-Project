@@ -1,4 +1,5 @@
 @@ -0,0 +1,29 @@
+
 /*jslint latedef:false*/
 document.getElementById("foot01").innerHTML = "<p>&copy;  " + new Date().getFullYear() + "  All rights reserved </p>";
 var x = parseInt(prompt("How long is the first array", "1"), 10)
