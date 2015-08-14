@@ -21,16 +21,15 @@ var m = 0;
 var k = 0;
 var l = 0;
 var array3 = new Array(c);
-/*while((m<a) && (k<b)){
+while(m<array.length && k<array2.length){
     if(array[m] < array2[k]){
         array3[l] = array[m];
-        m++;
-        l++;
+        m = m + 1;
     }else{
         array3[l] = array2[k];
-        k++;
-        l++;
+        k = k + 1;
     }
+    l = l + 1;
 }
 document.write(array3);
-*/
+
