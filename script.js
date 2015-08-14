@@ -12,7 +12,7 @@ for(var i = 0; i < array.length; i++){
     array[i] = parseInt(prompt("What is the value at index " + i + " of the first array", "1"), 10);
 }
 for(var j = 0; j < array2.length; j++){
-    array2[j] = parseInt(prompt("What is the value at index " + i + " of the second array", "1"), 10);
+    array2[j] = parseInt(prompt("What is the value at index " + j + " of the second array", "1"), 10);
 }
 document.write(" [" + array + "]");
 document.write(" [" + array2 + "]");
