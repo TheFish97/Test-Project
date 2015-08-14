@@ -21,7 +21,7 @@ var m = 0;
 var k = 0;
 var l = 0;
 var array3 = new Array(c);
-while((m<a) && (k<b)){
+/*while((m<a) && (k<b)){
     if(array[m] < array2[k]){
         array3[l] = array[m];
         m++;
@@ -33,3 +33,4 @@ while((m<a) && (k<b)){
     }
 }
 document.write(array3);
+*/
