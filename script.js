@@ -14,8 +14,8 @@ for(var i = 0; i < array.length; i++){
 for(var j = 0; j < array2.length; j++){
     array2[j] = parseInt(prompt("Fill the second array ", "1"), 10);
 }
-document.write(" [ " + array + " ]");
-document.write(" [" + array2 + " ]");
+document.write(" [" + array + "]");
+document.write(" [" + array2 + "]");
 document.write(".......Final Array ->");
 var m = 0;
 var k = 0;
