@@ -31,18 +31,5 @@ while(m<array.length || k<array2.length){
     }
     l = l + 1;
 }
-    while (m < array.length)
-    {
-        array3[l] = array[m];
-        l = l + 1;
-        m = m + 1;
-    }
-
-    while (k < array2.length)
-    {
-        array3[l] = array[k];
-        l = l + 1;
-        k = k + 1;
-    }
 document.write(array3);
 
