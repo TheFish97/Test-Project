@@ -14,7 +14,7 @@ for(var i = 0; i < array.length; i++){
 for(var j = 0; j < array2.length; j++){
     array2[j] = parseInt(prompt("Fill the second array ", "1"), 10);
 }
-/*document.write(" [" + array + "]");
+document.write(" [" + array + "]");
 document.write(" [" + array2 + "]");
 document.write(".......Final Array ->");
 var m = 0;
@@ -31,19 +31,21 @@ while(m<array.length && k<array2.length){
     }
     l = l + 1;
 }
+if(m<k){
     while (m < array.length)
     {
         array3[l] = array[m];
         l = l + 1;
         m = m + 1;
     }
-
+}else{
     while (k < array2.length)
     {
         array3[l] = array[k];
         l = l + 1;
         k = k + 1;
     }
+    
+}
 document.write(array3);
 
-*/
