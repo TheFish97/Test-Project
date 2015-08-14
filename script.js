@@ -32,4 +32,4 @@ while((m<a) && (k<b)){
         l++;
     }
 }
-document.write(array3);*/
+document.write(array3);
