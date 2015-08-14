@@ -22,7 +22,7 @@ var i2 = 0;
 var l = 0;
 var array3 = new Array(c);
 	if(i1 >= a && i2 >= b){
-		break;
+		array3[l] = 0;
 	}
 	else if (i1 >= a || array[i1] < array2[i2]){
 		array3[l] = array2[i2];
@@ -35,6 +35,5 @@ var array3 = new Array(c);
 		i1++;
 	}
 }
-
 document.write(array3);
 
