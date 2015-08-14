@@ -17,8 +17,6 @@ for(var j = 0; j < array2.length; j++){
 document.write(" [" + array + "]");
 document.write(" [" + array2 + "]");
 document.write(".......Final Array ->");
-
-
 var m = 0;
 var k = 0;
 var l = 0;
