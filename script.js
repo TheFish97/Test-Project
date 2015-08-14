@@ -17,32 +17,24 @@ for(var j = 0; j < array2.length; j++){
 document.write(" [" + array + "]");
 document.write(" [" + array2 + "]");
 document.write(".......Final Array ->");
-var m = 0;
-var k = 0;
+var i1 = 0;
+var i2 = 0;
 var l = 0;
 var array3 = new Array(c);
-while(m<array.length && k<array2.length){
-    if(array[m] < array2[k]){
-        array3[l] = array[m];
-        m = m + 1;
-    }else{
-        array3[l] = array2[k];
-        k = k + 1;
-    }
-    l = l + 1;
+	if(i1 >= a && i2 >= b){
+		break;
+	}
+	else if (i1 >= a || array[i1] < array2[i2]){
+		array3[l] = array2[i2];
+		l++;
+		i2++;
+	}	
+	else if (i2 >= b || array[i1] >= array2[i2]){
+		array3[l] = array[i1];
+		l++;
+		i1++;
+	}
 }
-    while (m < array.length)
-    {
-        array3[l] = array[m];
-        l = l + 1;
-        m = m + 1;
-    }
 
-    while (k < array2.length)
-    {
-        array3[l] = array[k];
-        l = l + 1;
-        k = k + 1;
-    }
 document.write(array3);
 
