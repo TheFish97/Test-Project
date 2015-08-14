@@ -31,5 +31,5 @@ while(m<array.length || k<array2.length){
     }
     l = l + 1;
 }
-document.write(array3);
+document.write("[" + array3 + "]");
 
